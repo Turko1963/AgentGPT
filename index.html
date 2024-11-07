@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentGPT Interface</title>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343541;
+            color: #ECECF1;
+        }
+        
+        .chatgpt-input {
+            background-color: #40414F;
+            border-color: #565869;
+        }
+        
+        .chatgpt-input:focus {
+            border-color: #2A2B32;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(92, 175, 158, 0.2);
+        }
+        
+        .result-block {
+            background-color: #444654;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
